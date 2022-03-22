@@ -2,3 +2,9 @@
 server : 
   port : 8000
 
+# 스프링프레임워크 로그 출력
+#logging :
+#  level : 
+#    org.springframework : DEBUG
+    
+     
