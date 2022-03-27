@@ -6,6 +6,10 @@ server :
 #logging :
 #  level : 
 #    org.springframework : DEBUG
+
+spring : 
+  messages:    basename: messages
+
     
 # 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 
 
