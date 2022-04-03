@@ -8,7 +8,19 @@ server :
 #    org.springframework : DEBUG
 
 spring : 
-  messages:    basename: messages
+  messages:
+    basename: messages
+#  security : 
+#    user :
+#      name : username
+#      password : qweasd 
+  h2:
+    console:
+      enabled: true
+  jpa : 
+   show-sql : true
+  datasource:
+    url: jdbc:h2:mem:testdb  
 
     
 # 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 
